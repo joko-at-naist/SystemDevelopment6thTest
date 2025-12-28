@@ -2,6 +2,7 @@ name: CI Security Scan
 
 on:
   pull_request:
+  workflow_dispatch:
   schedule:
     - cron: "0 3 * * 1"  # 毎週月曜 12:00 JST 相当(UTC 03:00)
 
