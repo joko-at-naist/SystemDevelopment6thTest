@@ -1,5 +1,5 @@
 # test_math.py
-from math import Math
+from mymath import Math
 
 def test_absolute_positive():
     m = Math()
