@@ -1,4 +1,4 @@
-import sys
+
 x = 0
 class Math:
   def absolute(self,x):
